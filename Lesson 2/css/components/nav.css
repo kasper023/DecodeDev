@@ -1,0 +1,40 @@
+ .nav
+{
+  display: flex;
+  align-items: center;
+}
+.nav__link
+{
+  font-size: 18px;
+  height: 30px;
+  cursor: pointer;
+}
+.nav__link:hover
+{
+  color: #DB0090;
+}
+
+.nav__arrow__hover {
+  display: none;
+}
+.nav__link:hover .nav__arrow__hover
+{
+  display: inline-block;
+}
+.nav__link:hover .nav__arrow
+{
+  display: none;
+}
+.nav__link_active
+{
+  color: #DB0090;
+  border-bottom: 1px solid #DB0090;
+}
+.nav__link_wmargins
+{
+  margin: auto 16px;
+}
+.nav__link_hidden
+{
+
+}

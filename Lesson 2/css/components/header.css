@@ -1,0 +1,35 @@
+.header
+{
+  width: 100%;
+  /* padding: 25px; */
+  /* margin: ; */
+}
+
+.header__top
+{
+  width: 100%;
+  padding: 6px 120px;
+  background-color: #DCFA3B;
+  display: flex;
+  /* block; inline-block; flex; none */
+  /*flex-direction: column or default: row */
+  flex-wrap: row wrap/*or default: nowrap*/;
+  justify-content: space-between;
+  align-items: ;
+  /* space-between; flex-start; flex-end; center */
+}
+
+.header__icon
+{
+  margin-right: 8px;
+}
+.header__bottom
+{
+  padding: 22px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_logo
+{
+  height: 75px;
+}

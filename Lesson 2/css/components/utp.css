@@ -1,0 +1,54 @@
+.utp
+{
+  position: relative;
+  height: calc(100vh - 145px);
+  background-image: url('../../img/backgrounds/utp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.utp__arrow
+{
+  width: 34px;
+  height: 20px;
+  position: absolute;
+  bottom: 76px;
+  left: calc(50% - 17px);
+  cursor: pointer;
+}
+.utp__title
+{
+  margin: 26px 0px;
+}
+.utp__subtitle
+{
+  text-align: center;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.utp__overlay
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.utp__inner
+{
+  z-index: 1;
+}
+/*
+position: relative, absolute, fixed (default: static)
+  При создание "position"
+  1) top
+  2) bottom
+  3) right
+  4) left
+  5) z-index
+*/
