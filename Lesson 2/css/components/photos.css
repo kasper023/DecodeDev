@@ -1,0 +1,159 @@
+.photos
+{
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  width: 100%;
+  border-bottom: 1px solid #D3D3D3;
+}
+.photos__block
+{
+  display: flex;
+  height: 100%;
+}
+.photos__block_column
+{
+  width: 25%;
+  height: 100%;
+  flex-direction: column;
+}
+.photos__block_row
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.morephotos
+{
+  display: flex;
+  position: absolute;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  color: #000000;
+  height: 53px;
+  width: 323px;
+  padding: 18px 64px 16px 48px;
+  right: 30%;
+  bottom: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  z-index: 5;
+}
+.morephotos__arrow_black
+{
+  padding-left: 5px;
+  padding-bottom: 1px;
+  z-index: 6;
+}
+.morephotos__arrow_pink
+{
+  display: none;
+  padding-left: 5px;
+  padding-bottom: 1px;
+  z-index: 6;
+}
+.morephotos:hover
+{
+  color: #DB0090;
+}
+.morephotos:hover .morephotos__arrow_pink
+{
+  display: block;
+}
+.morephotos:hover .morephotos__arrow_black
+{
+  display: none;
+}
+.photos__item
+{
+  display: flex;
+}
+.photos__item_1
+{
+  width: 100%;
+  height: 65%;
+}
+.photos__item_2
+{
+  width: 100%;
+  height: 35%;
+}
+.photos__item_3
+{
+  height: 100%;
+  width: 40%;
+}
+.photos__item_4
+{
+  height: 100%;
+  width: 60%;
+}
+.photos__item_5
+{
+  height: 100%;
+  width: 70%;
+}
+.photos__item_6
+{
+  height: 100%;
+  width: 30%;
+}
+.photos__top
+{
+  display: flex;
+  height: 40%;
+  width: 100%;
+}
+.photos__bottom
+{
+  display: flex;
+  height: 60%;
+  width: 100%;
+}
+.photos__img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 900px) {
+    .photos{
+      height: auto;
+    }
+    div.photos__block{
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    div.photos__item {
+      position: relative;
+      width: 50%;
+      padding-top: 50%;
+    }
+    .photos__img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .morephotos{
+      right: 0;
+      width: 50%;
+      justify-content: center;
+      background-color: #00FF00;
+    }
+}
+@media screen and (max-width: ) {
+
+}
+@media screen and (max-width: ) {
+
+}
+@media screen and (max-width: ) {
+
+}
+@media screen and (max-width: ) {
+
+}

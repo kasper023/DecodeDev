@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> (Calculator) </title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class = "calc">
+        <div class = "calc__display" id = "display">
+          0
+        </div>
+        <div class = "calc__keybrd">
+          <div class = "calc__button calc__button_grey" onclick = "clearDisplay()"> AC </div>
+          <div class = "calc__button calc__button_grey" onclick = "changeChar()"> +- </div>
+          <div class = "calc__button calc__button_grey" onclick = "doOperation('%')"> % </div>
+          <div class = "calc__button calc__button_orange" onclick = "doOperation('/')"> / </div>
+          <div class = "calc__button" onclick = "toggleNumber('7')"> 7 </div>
+          <div class = "calc__button" onclick = "toggleNumber('8')"> 8 </div>
+          <div class = "calc__button" onclick = "toggleNumber('9')"> 9 </div>
+          <div class = "calc__button calc__button_orange" onclick = "doOperation('x')"> x </div>
+          <div class = "calc__button" onclick = "toggleNumber('4')"> 4 </div>
+          <div class = "calc__button" onclick = "toggleNumber('5')"> 5 </div>
+          <div class = "calc__button" onclick = "toggleNumber('6')"> 6 </div>
+          <div class = "calc__button calc__button_orange" onclick = "doOperation('-')"> - </div>
+          <div class = "calc__button" onclick = "toggleNumber('1')"> 1 </div>
+          <div class = "calc__button" onclick = "toggleNumber('2')"> 2 </div>
+          <div class = "calc__button" onclick = "toggleNumber('3')"> 3 </div>
+          <div class = "calc__button calc__button_orange" onclick = "doOperation('+')"> + </div>
+          <div class = "calc__button calc__butt0n" onclick = "toggleNumber('0')"> 0 </div>
+          <div class = "calc__button" onclick = "addDot()"> . </div>
+          <div class = "calc__button calc__button_orange" onclick = "doOperation('=')"> = </div>
+        </div>
+    </div>
+  </body>
+  <script src = "./index.js"> </script>
+</html>

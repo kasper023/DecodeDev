@@ -32,9 +32,13 @@
 }
 .nav__link_wmargins
 {
-  margin: auto 16px;
+  position: relative;
+  margin: auto 20px;
 }
-.nav__link_hidden
+@media screen and (max-width: 700px)
 {
-
+  .nav
+  {
+    display: none;
+  }
 }

@@ -43,12 +43,30 @@
 {
   z-index: 1;
 }
-/*
-position: relative, absolute, fixed (default: static)
-  При создание "position"
-  1) top
-  2) bottom
-  3) right
-  4) left
-  5) z-index
-*/
+@media screen and (max-width: 720px)
+{
+    .utp__subtitle
+    {
+      font-size: 24px;
+    }
+    .utp__title
+    {
+      width: 400px;
+    }
+}
+@media screen and (max-width: 440px)
+{
+    .utp__subtitle
+    {
+      font-size: 16px;
+    }
+    .utp__title
+    {
+      width: 250px;
+    }
+    .utp__arrow
+    {
+      width: 22px;
+      height: 13px;
+    }
+}

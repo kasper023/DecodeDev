@@ -1,0 +1,37 @@
+.questions
+{
+  padding: 78px 334px 80px 334px;
+}
+.questions__data
+{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.questions__data_button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99C454;
+  height: 40px;
+  width: 172px;
+  border-radius: 16px;
+}
+.questions__data_name
+{
+  height: 40px;
+  width: 272px;
+  padding: 0px 28px;
+  border-radius: 5px;
+  background-color: #F4F4F4;
+}
+.questions__data_phone
+{
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  padding: 0px 28px;
+  height: 40px;
+  width: 272px;
+}
