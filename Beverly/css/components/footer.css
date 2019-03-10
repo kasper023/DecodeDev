@@ -1,0 +1,26 @@
+footer{
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+.footers{
+  color: #fff;
+  width: 15%;
+  padding-top: 1.5%;
+  padding-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.footer__1_logo{
+  margin-bottom: 10%;
+}
+.footer__title{
+  font-size: 18px;
+}
+.footer__description{
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 10%;
+}

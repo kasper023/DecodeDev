@@ -7,29 +7,31 @@
 .header__bottom_links{
   display: flex;
   align-items: center;
-  font-size: 12px;
-  font-weight: 600;
-  color: #000000;
-  margin-left: 135px;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: 5%;
   padding: 20px 0px;
 }
     .header__bottom_link{
       display: flex;
+      font-size: 12px;
+      font-weight: 600;
+      color: #000000;
       cursor: pointer;
-      margin-right: 50px;
+      /* margin-left: 5%; */
     }
     .header__bottom_arrow{
       padding-left: 5px;
     }
 .header__bottom_question{
-  margin-left: 24%;
+  margin-left: 15%;
   font-size: 12px;
   font-weight: 600;
   color: #000000;
   cursor: pointer;
 }
 .header__bottom_button{
-  margin: 8px 0px 8px 4%;
+  margin: 8px 0px 8px 1%;
   background-color: #BC943B;
   color: #ffffff;
   border: none;
